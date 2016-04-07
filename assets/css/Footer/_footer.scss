@@ -1,0 +1,46 @@
+
+@mixin fondocolor($color){
+	background-color:$color;
+}
+
+.finalfooter {
+  padding: 10px 0px;
+  color: #f4f4f4;
+  background-color: #444444; }
+  .finalfooter span {
+    font-size: .8em;
+    margin: 0px 5px; }
+footer{
+	ul>li>span{
+		margin-right: 10px;
+	}
+	ul>li>a{
+		color:gray;
+		font-weight: 400;
+		letter-spacing: 2px;
+		font-size: .7em;
+	}
+	p{
+		font-size: .9em;
+	}
+	.marc{
+		background-color: white;
+		border-radius: 43%;
+		padding:10px;
+
+	}
+	.redes{
+		background-color: white;
+		color: gray;
+		padding: 5%;
+	}
+}
+.finalfooter{
+	padding:10px 0px;
+	color:#f4f4f4;
+	@include fondocolor(black);
+	span{
+		font-size: .8em;
+		margin:0px 5px;
+	}
+}
