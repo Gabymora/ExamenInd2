@@ -1,9 +1,9 @@
 $gris:#EEEEEE;
 $negro:#444444;
-$font-body: Arial,sans-serif;
+$fuente: Arial,sans-serif;
 $titles:"Raleway", sans-serif;
-$bg-gray:#EEEEEE;
-$color-body:gray;
+$col-princ:gray;
+$rosa:#D97B7B;
 
 @mixin bg($src){
 	background-image: url($src);

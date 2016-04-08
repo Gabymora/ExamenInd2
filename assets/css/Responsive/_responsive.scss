@@ -1,0 +1,38 @@
+@media screen and (max-width: 768px) {
+.contact{
+		h1{
+			font-size: 3em !important;
+			margin-top: -80% !important;
+		}
+		h4{
+			margin-top: -51% !important;
+			text-align: center;
+		}
+		p{
+			text-align: center;
+		}
+	}
+}
+.form{
+	iframe{
+		width:500px;
+		height:400px;
+	}
+}
+footer{
+	.redes{
+		padding: 2% !important;
+	}
+}
+.finalfooter{
+	img{
+		width: 35%;
+		text-align: center;
+	}
+}
+
+/*header*/
+.carrito{
+	text-align: left !important;
+	margin-top: 2% !important;
+}

@@ -1,24 +1,26 @@
 .contact{
 	.banner{
 		background-image: url(../images/manos.jpg);
-	    height: 400px;
+	    height: 500px;
 	    background-size: cover;
 	    background-repeat: no-repeat;
     	position: relative;
     	z-index: -1;
     	-webkit-filter:brightness(30%);
-    	height: 400px;
+    	margin-bottom:5%;
 	}
-	span{
-		background-color: #D97B7B;
+	h1{
+		background-color: $rosa;
 		font-size: 5em;
 		text-transform: uppercase;
 		color: white;
 		text-align: center;
 		font-weight: 500;
+		margin-top: -59%;
 	}
 	h4{
 		color: white;
+		margin-top: -89%;
 
 	}
 	p{
@@ -27,7 +29,7 @@
 }
 .form{
 	input{
-	background: $bg-gray;
+	background: $gris;
 	border:none;
   	width:100%;
   	height: 35px;
@@ -37,7 +39,7 @@
 
 	textarea {
     width: 100%;
-    background: $bg-gray;
+    background: $gris;
     border: none;
     padding: 14px 21px;
     margin-top:5px;
@@ -50,7 +52,7 @@
 	border:1px solid #d6bcd6;
 	display:inline-block;
 	cursor:pointer;
-	color:#D97B7B;
+	color:$rosa;
 	font-family:Arial;
 	font-size:15px;
 	padding:5px 15px;
@@ -67,38 +69,4 @@
 .myButton:active {
 	position:relative;
 	top:1px;
-}
-#formu{
-	margin-left: 24px;
-}
-
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
-/* Styles */
-.banner{
-	    height: 300px;
-	    background-size: cover;
-	    background-repeat: no-repeat;
-    	position: relative;
-    	z-index: -1;
-    	-webkit-filter:brightness(30%);
-	}
-	span{
-		background-color: #D97B7B;
-		font-size: 2em;
-		text-transform: uppercase;
-		color: white;
-		text-align: center;
-		font-weight: 500;
-		margin-top: -10px !important;
-	}
-	h4{
-		color: white;
-		margin: -6px;
-	}
-	p{
-		color: white;
-		margin:0;
-	}
 }

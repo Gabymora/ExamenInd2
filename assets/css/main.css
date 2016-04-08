@@ -1,5 +1,4 @@
 /*Utilities*/
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,700);
 .pdt {
   padding-top: 30px; }
 
@@ -11,7 +10,8 @@
   margin-bottom: 25px; }
 
 .bck-gris {
-  background-color: #EEEEEE; }
+  background-color: #EEEEEE;
+  padding-top: 1%; }
 
 .mgl-2 {
   margin-left: 7%; }
@@ -58,14 +58,38 @@
 .f-right {
   float: right; }
 
-html {
-  font-family: sans-serif;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%; }
+@media screen and (max-width: 768px) {
+  .contact h1 {
+    font-size: 3em !important;
+    margin-top: -80% !important; }
+  .contact h4 {
+    margin-top: -51% !important;
+    text-align: center; }
+  .contact p {
+    text-align: center; } }
+.form iframe {
+  width: 500px;
+  height: 400px; }
 
-body {
-  font-family: 'Raleway', sans-serif;
-  font-size: 14px; }
+footer .redes {
+  padding: 2% !important; }
+
+.finalfooter img {
+  width: 35%;
+  text-align: center; }
+
+/*header*/
+.carrito {
+  text-align: left !important;
+  margin-top: 2% !important; }
+
+#menu2 ul li a {
+  color: black !important; }
+#menu2 .nav-pills > li.active > a {
+  background-color: #D97B7B !important; }
+
+.carrito {
+  float: right; }
 
 .comment {
   font-size: 1.2em;
@@ -112,6 +136,8 @@ footer .redes {
   background-color: white;
   color: gray;
   padding: 5%; }
+footer a {
+  color: #D97B7B; }
 
 .finalfooter {
   padding: 10px 0px;
@@ -120,25 +146,29 @@ footer .redes {
   .finalfooter span {
     font-size: .8em;
     margin: 0px 5px; }
+  .finalfooter a {
+    color: #D97B7B; }
 
 .contact .banner {
   background-image: url(../images/manos.jpg);
-  height: 400px;
+  height: 500px;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
   z-index: -1;
   -webkit-filter: brightness(30%);
-  height: 400px; }
-.contact span {
+  margin-bottom: 5%; }
+.contact h1 {
   background-color: #D97B7B;
   font-size: 5em;
   text-transform: uppercase;
   color: white;
   text-align: center;
-  font-weight: 500; }
+  font-weight: 500;
+  margin-top: -59%; }
 .contact h4 {
-  color: white; }
+  color: white;
+  margin-top: -89%; }
 .contact p {
   color: white; }
 
@@ -181,36 +211,6 @@ footer .redes {
   position: relative;
   top: 1px; }
 
-#formu {
-  margin-left: 24px; }
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  /* Styles */
-  .banner {
-    height: 300px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    z-index: -1;
-    -webkit-filter: brightness(30%); }
-
-  span {
-    background-color: #D97B7B;
-    font-size: 2em;
-    text-transform: uppercase;
-    color: white;
-    text-align: center;
-    font-weight: 500;
-    margin-top: -10px !important; }
-
-  h4 {
-    color: white;
-    margin: -6px; }
-
-  p {
-    color: white;
-    margin: 0; } }
-/***Generales****/
 body {
   font-weight: 400;
   line-height: 20px;
@@ -233,7 +233,6 @@ ul {
   .img-bck .img img {
     width: 100%; }
 
-/****Sections****/
 .top {
   padding: 15px 50px 21px; }
   .top .welcome {
@@ -301,16 +300,33 @@ ul {
   #clientes .client {
     padding: 1%; }
 
-#muestrario2 .products2 {
+#m2 .products2 {
   float: left;
   position: relative;
   width: 60%;
   text-align: center;
   padding: 5px;
   border: 2px solid #F1F1F1; }
-#muestrario2 .description2 {
+#m2 .description2 {
   float: right;
   padding-left: 22px;
   width: 40%; }
+
+#blog small {
+  color: #D97B7B; }
+
+#cuad .c1 {
+  border: 1px solid #EEEEEE;
+  font-size: 45px;
+  padding: 3%;
+  margin: 10px 3px; }
+#cuad .c2 {
+  border-left: 1px solid #EEEEEE;
+  text-align: left;
+  font-size: 15px;
+  margin: -46px 0px 0px 56px;
+  padding: 2%; }
+#cuad span {
+  text-transform: uppercase; }
 
 /*# sourceMappingURL=main.css.map */

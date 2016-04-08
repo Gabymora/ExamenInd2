@@ -22,13 +22,20 @@ footer{
 		color: gray;
 		padding: 5%;
 	}
+	a{
+		color:$rosa;
+	}
 }
+
 .finalfooter{
 	padding:10px 0px;
-	color:#f4f4f4;
+	color: #f4f4f4;
 	@include fondocolor(black);
 	span{
 		font-size: .8em;
 		margin:0px 5px;
+	}
+	a{
+		color:$rosa;
 	}
 }
