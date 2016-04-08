@@ -28,6 +28,36 @@
 .mgt-13 {
   margin-top: 13%; }
 
+.mgb-5 {
+  margin-bottom: 5%; }
+
+.bg-gray {
+  background-color: #EEEEEE; }
+
+.white {
+  color: white; }
+
+.red {
+  color: #EA7E7E; }
+
+.mt-3 {
+  margin-top: 3%; }
+
+.tb-1 {
+  margin-top: 1%; }
+
+.w-100 {
+  width: 100%; }
+
+.w-50 {
+  width: 50%; }
+
+.f-left {
+  float: left; }
+
+.f-right {
+  float: right; }
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -37,60 +67,6 @@ body {
   font-family: 'Raleway', sans-serif;
   font-size: 14px; }
 
-#search span {
-  font-size: 18px;
-  text-transform: uppercase;
-  text-align: left; }
-
-.contact .banner {
-  background-image: url(../images/manos.jpg);
-  height: 400px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
-  z-index: -1;
-  -webkit-filter: brightness(30%);
-  height: 400px; }
-.contact span {
-  background-color: #D97B7B;
-  font-size: 5em;
-  text-transform: uppercase;
-  color: white;
-  text-align: center;
-  font-weight: 500; }
-.contact h4 {
-  color: white; }
-.contact p {
-  color: white; }
-
-/* @media screen (max-height: 760){
-	.banner{
-		background-image: url(../images/manos.jpg);
-	    height: 400px;
-	    background-size: cover;
-	    background-repeat: no-repeat;
-    	position: relative;
-    	z-index: -1;
-    	-webkit-filter:brightness(30%);
-    	height: 300px;
-	}
-	span{
-		background-color: #D97B7B;
-		font-size: 2em;
-		text-transform: uppercase;
-		color: white;
-		text-align: center;
-		font-weight: 500;
-		margin-top: 0px !important;
-	}
-	h4{
-		color: white;
-	}
-	p{
-		color: white;
-	}
-}
- */
 .comment {
   font-size: 1.2em;
   color: #848282;
@@ -104,6 +80,11 @@ body {
   .dropdown button {
     background-color: #EEEEEE; }
 
+#search span {
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: left; }
+
 ul {
   list-style: none;
   padding: 0; }
@@ -113,27 +94,6 @@ h3 {
   font-weight: 700;
   font-size: .9em;
   letter-spacing: 2px; }
-
-.img-bck {
-  border: 1px solid red; }
-  .img-bck .img {
-    padding: 5px; }
-    .img-bck .img img {
-      width: 100%; }
-
-#client .container-fluid {
-  background-image: url("../../assets/images/slider1.jpg");
-  background-size: cover;
-  background-position: bottom; }
-
-.finalfooter {
-  padding: 10px 0px;
-  color: #f4f4f4;
-  background-color: #444444; }
-
-.finalfooter span {
-  font-size: .8em;
-  margin: 0px 5px; }
 
 footer ul > li > span {
   margin-right: 10px; }
@@ -160,5 +120,197 @@ footer .redes {
   .finalfooter span {
     font-size: .8em;
     margin: 0px 5px; }
+
+.contact .banner {
+  background-image: url(../images/manos.jpg);
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: -1;
+  -webkit-filter: brightness(30%);
+  height: 400px; }
+.contact span {
+  background-color: #D97B7B;
+  font-size: 5em;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  font-weight: 500; }
+.contact h4 {
+  color: white; }
+.contact p {
+  color: white; }
+
+.form input {
+  background: #EEEEEE;
+  border: none;
+  width: 100%;
+  height: 35px;
+  padding-left: 21px;
+  margin-top: 5px; }
+.form textarea {
+  width: 100%;
+  background: #EEEEEE;
+  border: none;
+  padding: 14px 21px;
+  margin-top: 5px; }
+
+.myButton {
+  box-shadow: 3px 4px 0px 0px #899599;
+  background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+  background-color: #ededed;
+  border: 1px solid #d6bcd6;
+  display: inline-block;
+  cursor: pointer;
+  color: #D97B7B;
+  font-family: Arial;
+  font-size: 15px;
+  padding: 5px 15px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #e1e2ed;
+  float: right;
+  margin-top: -10px; }
+
+.myButton:hover {
+  background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bab1ba', endColorstr='#ededed',GradientType=0);
+  background-color: #bab1ba; }
+
+.myButton:active {
+  position: relative;
+  top: 1px; }
+
+#formu {
+  margin-left: 24px; }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Styles */
+  .banner {
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: -1;
+    -webkit-filter: brightness(30%); }
+
+  span {
+    background-color: #D97B7B;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    margin-top: -10px !important; }
+
+  h4 {
+    color: white;
+    margin: -6px; }
+
+  p {
+    color: white;
+    margin: 0; } }
+/***Generales****/
+body {
+  font-weight: 400;
+  line-height: 20px;
+  font-family: Arial, sans-serif;
+  color: gray;
+  padding: 0;
+  margin: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+  color: black; }
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.img-bck .img {
+  padding: 5px; }
+  .img-bck .img img {
+    width: 100%; }
+
+/****Sections****/
+.top {
+  padding: 15px 50px 21px; }
+  .top .welcome {
+    float: left; }
+  .top .top-menu ul {
+    float: right; }
+    .top .top-menu ul li {
+      display: inline-block;
+      padding: 0 1%; }
+
+#header-medio {
+  padding: 40px 0;
+  position: relative; }
+  #header-medio .opening-time {
+    padding: 25px 0 0 15px; }
+    #header-medio .opening-time .clock {
+      float: left;
+      font-size: 42px; }
+    #header-medio .opening-time .time {
+      float: right;
+      font-size: 20px; }
+  #header-medio .input-group .form-control {
+    float: right;
+    width: 75%; }
+
+.menu {
+  background: #F1F1F1; }
+
+.main-menu nav ul li {
+  float: left;
+  position: relative; }
+  .main-menu nav ul li a {
+    display: block;
+    font-family: "Raleway",sans-serif;
+    padding: 18px 30px;
+    position: relative;
+    text-decoration: none; }
+
+#banner {
+  background-image: url("../images/slider1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 14% 5% 5% 5%; }
+  #banner span {
+    border: 3px white solid;
+    padding: 10px 29px;
+    font-size: 34px; }
+  #banner h3 {
+    font-size: 19px;
+    letter-spacing: 8px;
+    margin-top: 34px; }
+
+.slider ul li {
+  display: inline-block;
+  margin: 10px 15px; }
+
+.rating ul li {
+  display: inline-block; }
+
+#clientes {
+  background-image: url("../images/client-bg.jpg");
+  background-size: cover;
+  padding: 3% 2%; }
+  #clientes .client {
+    padding: 1%; }
+
+#muestrario2 .products2 {
+  float: left;
+  position: relative;
+  width: 60%;
+  text-align: center;
+  padding: 5px;
+  border: 2px solid #F1F1F1; }
+#muestrario2 .description2 {
+  float: right;
+  padding-left: 22px;
+  width: 40%; }
 
 /*# sourceMappingURL=main.css.map */

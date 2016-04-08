@@ -7,68 +7,6 @@ body{
 	font-family: 'Raleway', sans-serif;
 	font-size:14px;
 }
-#search{
-		span{
-			font-size: 18px;
-			text-transform: uppercase;
-			text-align: left
-		}
-}
-.contact{
-	.banner{
-		background-image: url(../images/manos.jpg);
-	    height: 400px;
-	    background-size: cover;
-	    background-repeat: no-repeat;
-    	position: relative;
-    	z-index: -1;
-    	-webkit-filter:brightness(30%);
-    	height: 400px;
-	}
-	span{
-		background-color: #D97B7B;
-		font-size: 5em;
-		text-transform: uppercase;
-		color: white;
-		text-align: center;
-		font-weight: 500;
-	}
-	h4{
-		color: white;
-
-	}
-	p{
-		color: white;
-	}
-}
-/* @media screen (max-height: 760){
-	.banner{
-		background-image: url(../images/manos.jpg);
-	    height: 400px;
-	    background-size: cover;
-	    background-repeat: no-repeat;
-    	position: relative;
-    	z-index: -1;
-    	-webkit-filter:brightness(30%);
-    	height: 300px;
-	}
-	span{
-		background-color: #D97B7B;
-		font-size: 2em;
-		text-transform: uppercase;
-		color: white;
-		text-align: center;
-		font-weight: 500;
-		margin-top: 0px !important;
-	}
-	h4{
-		color: white;
-	}
-	p{
-		color: white;
-	}
-}
- */
 .comment{
 	font-size:1.2em;
 	color: #848282;
@@ -84,6 +22,14 @@ body{
 		background-color:$gris;
 	}
 }
+#search{
+		span{
+			font-size: 18px;
+			text-transform: uppercase;
+			text-align: left
+		}
+}
+
 ul{
 	list-style:none;
 	padding:0;
@@ -95,22 +41,3 @@ h3{
 	letter-spacing:2px;
 }
 
-.img-bck{
-	border:1px solid red;
-	.img{
-		padding:5px;
-		img{
-			width:100%;
-		}
-	}
-}
-
-
-#client{
-	.container-fluid{
-		background-image:url('../../assets/images/slider1.jpg');
-		background-size:cover;
-		background-position:bottom;
-	}
-	
-}

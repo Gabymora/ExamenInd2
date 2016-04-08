@@ -1,3 +1,18 @@
 $gris:#EEEEEE;
 $negro:#444444;
+$font-body: Arial,sans-serif;
+$titles:"Raleway", sans-serif;
+$bg-gray:#EEEEEE;
+$color-body:gray;
+
+@mixin bg($src){
+	background-image: url($src);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	}
+
+@mixin fondocolor($color){
+	background-color:$color;
+}
 
